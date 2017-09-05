@@ -66,7 +66,9 @@ public class Quickstart {
 			
 		final JFrame window = new ventana();
 		//crear un menu de seleccion de puertos y el boton para empezar
-		final JButton connectButton = new JButton("Conectar");
+		final String ACTION_1 = "Conectar";
+		final JButton connectButton = new JButton(ACTION_1);
+		
 		
 		JPanel topPanel = new JPanel();
 		SerialPort[] portNames = SerialPort.getCommPorts();

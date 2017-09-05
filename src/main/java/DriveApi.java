@@ -111,7 +111,7 @@ public class DriveApi {
 
     //private static Drive service;
     public static String actualFolder = "0B2SU9lm9vfKiQkc0WEdrQTNVOFE";
-    private static ArrayList<String> Hojas = null;
+    public static ArrayList<String> Hojas = null;
     Drive service;
     
     public void init(ArrayList<String> hojas) throws Exception {
