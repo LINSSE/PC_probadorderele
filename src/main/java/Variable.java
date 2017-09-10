@@ -6,7 +6,7 @@ public class Variable {
 	//attributes
 	private String nombreVariable;
 	private int max;
-	private ArrayList<Double> valores;
+	private ArrayList<Double> valores = new ArrayList<Double>();
 	private ArrayList<Anomalia> anomalias = new ArrayList<Anomalia>(); 
 
 	//setter and getters
@@ -57,10 +57,13 @@ public class Variable {
 		this.getAnomalias().add(p_anomMax);
 	}
 	
+	public void setAnomaliaPico(AnomaliaPico p_anomPico){
+		this.getAnomalias().add(p_anomPico);
+	}
+	
 	//constructor
 	public Variable(String p_nombreVariable, int p_max) {
 		this.nombreVariable = p_nombreVariable;
-		this.valores = new ArrayList<Double>();
 		this.max = p_max;
 	}
 

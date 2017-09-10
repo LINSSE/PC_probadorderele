@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 public  abstract class Anomalia {
 	//attributes
 	double refValue;
-	public ResultadoAnomalia resultado;
+	public ResultadoAnomalia resultado= new ResultadoAnomalia();
 	private String date;
 	
 	//constructor
@@ -23,12 +23,17 @@ public  abstract class Anomalia {
 		this.date = p_date;
 	}
 	
+	//getters
 	public String getFecha(){
 		return this.date;
 	}
 	
 	public ResultadoAnomalia getResultado(){
 		return this.resultado;
+	}
+	
+	public double getRefValue(){
+		return this.refValue;
 	}
 	
 	//abstract methods 

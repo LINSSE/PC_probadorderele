@@ -191,6 +191,7 @@ public class Quickstart {
 								gestionTres.cargarEnExcel(Dir+getTitulo()+"_Anomalias_CIAA_3");
 								
 								
+								
 								//LIMPIO LA PANTALLA
 								System.out.println("[#6]/////Limpio Pantalla");
 								window.repaint();
