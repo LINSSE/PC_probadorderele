@@ -32,11 +32,11 @@ public class Quickstart {
 	static int x = 0;
 	final static chartHandler Graficos = new chartHandler(cantidad_puertos, cantidad_sensores);
 	final static PortHandler Puertos = new PortHandler(cantidad_puertos);
-	static String Dir = "C:/Users/Sambrana Ivan/Google Drive/Registro de Reles/Local/";
+	//static String Dir = "C:/Users/Sambrana Ivan/Google Drive/Registro de Reles/Local/";
 	final static ArrayList<JComboBox<String>> portList = new ArrayList<JComboBox<String>>();
 
 	
-	//static String Dir = "C:/exceltest/";
+	static String Dir = "C:/exceltest/";
 	public chartHandler getGraficos()
 	{
 		return Quickstart.Graficos;
